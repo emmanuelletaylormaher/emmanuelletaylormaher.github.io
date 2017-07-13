@@ -17,9 +17,6 @@ select{
 	margin-bottom: 2em;
 }
 
-muted{
-	
-}
 
 .constant{
 	color: white;
@@ -28,6 +25,10 @@ muted{
 
 .peep{
 	display: inline;
+}
+
+.span10{
+	background-color: white;
 }
 
 .typical{
