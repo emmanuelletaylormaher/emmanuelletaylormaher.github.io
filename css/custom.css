@@ -14,6 +14,11 @@ footer p.muted{
 select{
 	display: block;
 	margin: auto;
+	margin-bottom: 2em;
+}
+
+muted{
+	
 }
 
 .constant{
@@ -23,6 +28,15 @@ select{
 
 .peep{
 	display: inline;
+}
+
+.typical{
+	margin: 0px auto;
+	display: block;
+}
+
+#babyself{
+	content: url("/img/babyself.png");
 }
 
 #self{
