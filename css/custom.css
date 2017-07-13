@@ -36,8 +36,14 @@ select{
 }
 
 .navMain{
-	max-width: 100%;
+	max-width: 80%;
 	max-height: auto;
+	margin: 0 auto;
+	padding-left: 5em;
+}
+
+.navMain:hover{
+	opacity: 0.6;
 }
 
 .peep{
@@ -58,7 +64,7 @@ select{
 }
 
 #self{
-	/*content: url("/img/self.png");*/
+	content: url("/img/self.png");
 	margin: 0 auto;
 	width: 100%;
 	height: auto;
