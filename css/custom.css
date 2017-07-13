@@ -16,10 +16,16 @@ select{
 	margin: auto;
 }
 
+h5.typical{
+	color: white;
+}
 
 .constant{
 	color: white;
-	text-align: center;
+}
+
+.jumbotron{
+	background-color: #BD351C;	
 }
 
 .navbar{
@@ -39,7 +45,6 @@ select{
 	max-width: 80%;
 	max-height: auto;
 	margin: 0 auto;
-	padding-left: 5em;
 }
 
 .navMain:hover{
@@ -61,7 +66,8 @@ select{
 }
 
 #babyself{
-	
+	max-width: 100%;
+	max-height: auto;
 }
 
 #self{
