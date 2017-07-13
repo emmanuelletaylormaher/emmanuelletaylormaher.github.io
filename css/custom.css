@@ -14,13 +14,17 @@ footer p.muted{
 select{
 	display: block;
 	margin: auto;
-	margin-bottom: 2em;
 }
 
 
 .constant{
 	color: white;
 	text-align: center;
+}
+
+.navMain{
+	max-width: 100%;
+	max-height: auto;
 }
 
 .peep{
