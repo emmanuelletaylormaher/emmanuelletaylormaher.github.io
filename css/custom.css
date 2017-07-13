@@ -22,6 +22,19 @@ select{
 	text-align: center;
 }
 
+.navbar{
+	background-color: #BD351C;
+	box-shadow: none;
+	border-width: 0;
+}
+
+.navbar-brand,
+.navbar-nav li a {
+    line-height: 100px;
+    height: 100px;
+    background-color: #971D07;
+}
+
 .navMain{
 	max-width: 100%;
 	max-height: auto;
