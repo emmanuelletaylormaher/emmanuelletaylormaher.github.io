@@ -24,6 +24,14 @@ h5.typical{
 	color: white;
 }
 
+.fa {
+	color: white;
+}
+
+.fa:hover{
+	opacity: 0.6;
+}
+
 .jumbotron{
 	background-color: #BD351C;	
 }
@@ -38,7 +46,11 @@ h5.typical{
 .navbar-nav li a {
     line-height: 100px;
     height: 100px;
-    background-color: #971D07;
+    padding-bottom: 0;
+}
+
+.navbar-right{
+	padding-top: 0.5em;
 }
 
 .navMain{
@@ -47,7 +59,7 @@ h5.typical{
 	margin: 0 auto;
 }
 
-.navMain:hover{
+.navMain:hover, .navTop:hover{
 	opacity: 0.6;
 }
 
