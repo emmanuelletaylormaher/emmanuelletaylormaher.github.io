@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Simple Simon Game</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+	<!---audio files-->
+	<!---select synth sounds-->
+	<audio class="synth" id="synthHead"><source src="/sound/synthHead.mp3" type="audio/mpeg"></audio>
+	<audio class="synth" id="synthLeftArm"><source src="/sound/synthLeftArm.mp3" type="audio/mpeg"></audio>
+	<audio class="synth" id="synthRightArm"><source src="/sound/synthRightArm.mp3" type="audio/mpeg"></audio>
+	<audio class="synth" id="synthAbs"><source src="/sound/synthAbs.mp3" type="audio/mpeg"></audio>
+
+	<!--misc sound effects-->
+	<audio class="miscSFX" id="simonSaysFight"><source src="/sound/simonSaysFight.mp3" type="audio/mpeg"></audio>
+	<audio class="miscSFX" id="simonTaunt"><source src="/sound/niceTryShrimp.mp3" type="audio/mpeg"></audio>
+	<audio class="miscSFX" id="simonLaugh"><source src="/sound/simonLaugh.mp3" type="audio/mpeg"></audio>
+	<audio class="miscSFX" id="punchSFX"><source src="/sound/punchSFX.mp3" type="audio/mpeg"></audio>
+
+	<div class="container">
+		<div id="round"></div>
+		<h4>press simon's tattoo to start. use your mouse or arrow keys to give this guy a beating!</h4>
+		<div class="head bodyButtons" id="head"></div>
+		<div class="tattooHover" id="tattoo"></div>
+
+
+		<div class="torso">
+			<div class="leftArm bodyButtons" id="leftArm"></div>
+			<img src="img/simon/torso.png">
+			<div class="rightArm bodyButtons" id="rightArm"></div>
+		</div>
+
+		<div class="abs bodyButtons" id="abs"></div>
+		<div class="toggleMusic">
+			<button class="btn" id="toggleMusic">toggle music</button>
+		</div>
+		
+		<div class="gameover">
+			<div id="gameover"></div>
+			<div id="tryAgain"></div>
+		</div>
+
+	</div>
+	<footer></footer>
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>

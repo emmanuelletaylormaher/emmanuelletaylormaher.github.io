@@ -1,0 +1,202 @@
+
+
+/********SIMON DESIGN*********/
+.container{
+  max-height: 50px;
+}
+#round{
+  content: url("/img/simon/round.png");
+  max-height: auto;
+  max-width: 25%;
+  display: block;
+  margin: auto;
+  position: relative;
+  top: 90em;
+  right: 7em;
+  color: red;
+}
+.abs{
+  content:url("/img/simon/abs.gif");
+  max-width: 20%;
+  max-height: auto;
+  margin: auto;
+  display: block;
+  position: relative;
+  bottom: 40em;
+}
+
+img{
+  max-height: auto;
+  max-width: 45%;
+  margin: auto;
+  display: block;
+  background-color: white;
+}
+
+div.head{
+  content:url("/img/simon/simonHead.gif");
+  position: relative;
+  margin: auto;
+  display: block;
+  top: 41em;
+  max-height: auto;
+  max-width: 18%;
+}
+
+div.tattoo{
+  content:url("/img/simon/simonTattoo.png");
+  position: relative;
+  margin: auto;
+  display: block;
+  top: 42em;
+  max-width: 15%;
+  max-height: auto;
+}
+
+div.tattooHover{
+  content:url("/img/simon/simonTattoo.png");
+  position: relative;
+  margin: auto;
+  display: block;
+  top: 42em;
+  max-width: 15%;
+  max-height: auto;
+}
+.tattooHover:hover{
+  content: url("/img/simon/simonTattooHover.png")
+}
+
+div.leftArm{
+  content:url("/img/simon/leftArm.gif");
+  position: relative;
+  top:27em;
+  left: 19em;
+}
+
+div.rightArm{
+  content:url("/img/simon/rightArm.gif");
+  position: relative;
+  left: 46.5em;
+  bottom: 27.5em;
+}
+
+body{
+  background-color: papayawhip;
+}
+
+div.rightArm, div.leftArm {
+  max-width: 20%;
+  max-height: auto;
+}
+
+.bodyButtons:hover{
+  opacity: 0.6;
+}
+
+/******select buttons******/
+.headSelect{
+  content: url("/img/simon/simonHeadSelect.gif");
+  position: relative;
+  margin: auto;
+  display: block;
+  top: 41em;
+  max-height: auto;
+  max-width: 18%;
+}
+
+.leftArmSelect{
+  content: url("/img/simon/leftArmSelect.gif");
+  position: relative;
+  top:27em;
+  left: 19em;
+  max-width: 20%;
+  max-height: auto;
+}
+
+.rightArmSelect{
+  content: url("/img/simon/rightArmSelect.gif");
+  position: relative;
+  left: 46.5em;
+  bottom: 27.5em;
+  max-width: 20%;
+  max-height: auto;
+}
+
+.absSelect{
+  content: url("/img/simon/absSelect.gif");
+  max-width: 20%;
+  max-height: auto;
+  margin: auto;
+  display: block;
+  position: relative;
+  bottom: 40em;
+}
+
+/******hit buttons********/
+.headHit{
+  content: url("/img/simon/simonHeadHit.gif");
+  position: relative;
+  margin: auto;
+  display: block;
+  top: 41em;
+  max-height: auto;
+  max-width: 18%;
+}
+
+.leftArmHit{
+  content: url("/img/simon/leftArmHit.gif");
+  position: relative;
+  top:27em;
+  left: 19em;
+  max-width: 20%;
+  max-height: auto;
+}
+
+.rightArmHit{
+  content: url("/img/simon/rightArmHit.gif");
+  position: relative;
+  left: 46.5em;
+  bottom: 27.5em;
+  max-width: 20%;
+  max-height: auto;
+}
+
+.absHit{
+  content: url("/img/simon/absHit.gif");
+  max-width: 20%;
+  max-height: auto;
+  margin: auto;
+  display: block;
+  position: relative;
+  bottom: 40em;
+}
+
+/****MISC FUNCTIONALITY*****/
+
+.toggleMusic{
+  margin: 0;
+  text-align: center;
+}
+
+
+
+#gameover {
+  content: url("/img/simon/gameover.gif");
+  max-height: auto;
+  max-width: 60%;
+  margin: 0 auto;
+}
+#tryAgain {
+  content: url("/img/simon/tryAgain.png");
+  max-height: auto;
+  max-width: 10%;
+  margin: 0 auto;
+}
+
+#tryAgain:hover{
+  opacity: 0.6;
+}
+
+h4{
+  text-align: center;
+}
