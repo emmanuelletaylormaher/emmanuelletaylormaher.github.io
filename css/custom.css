@@ -49,10 +49,6 @@ h5.typical{
     padding-bottom: 0;
 }
 
-.navbar-right{
-	padding-top: 0.5em;
-}
-
 .navMain{
 	max-width: 80%;
 	max-height: auto;
@@ -80,6 +76,10 @@ h5.typical{
 #babyself{
 	max-width: 100%;
 	max-height: auto;
+}
+
+#main-content{
+	display: none;
 }
 
 #self{
