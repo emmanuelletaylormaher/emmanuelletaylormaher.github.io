@@ -63,6 +63,17 @@ h5.typical{
 	display: inline;
 }
 
+.portfolio{
+	background-color: white;
+	border: 1px solid #BD351C;
+}
+
+.portfolioHover{
+	background-color: papayawhip;
+	opacity: 0.8;
+	display: none;
+}
+
 .span10{
 	background-color: white;
 }
