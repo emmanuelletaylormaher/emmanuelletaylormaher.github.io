@@ -64,8 +64,8 @@ h5.typical{
 }
 
 .portfolio{
-	background-color: white;
-	border: 1px solid #BD351C;
+	max-height: 300px;
+	max-width: 500px;
 }
 
 .portfolioHover{
