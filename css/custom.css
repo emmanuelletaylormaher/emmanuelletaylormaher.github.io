@@ -93,6 +93,18 @@ h5.typical{
 	display: none;
 }
 
+#screencap1{
+	content: url("/img/teachr.png");
+}
+
+#screencap2{
+	content: url("/img/simon.png");
+}
+
+#screencap3{
+	content: url("/img/weather.png");
+}
+
 #self{
 	content: url("/img/self.png");
 	margin: 0 auto;
